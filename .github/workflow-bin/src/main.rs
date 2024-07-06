@@ -42,7 +42,7 @@ async fn main() -> Result<(), anyhow::Error> {
     match Commands::parse() {
         Commands::Start => pushover.send("Workflow开始执行！", PushoverSound::BIKE),
         Commands::Run => {
-            sleep(Duration::from_secs(3)).await;
+            sleep(Duration::from_secs(10)).await;
 
             if true {
                 pushover.send("Workflow执行成功！", PushoverSound::MAGIC)
