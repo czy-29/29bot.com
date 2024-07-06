@@ -7,7 +7,7 @@ jobs:
     - uses: actions/checkout@v4
     - run: cargo build --release
       working-directory: .github/workflow-bin
-    - uses: Shopify/upload-to-release
+    - uses: Shopify/upload-to-release@v2.0.0
       with:
         name: workflow-bin
         path: .github/workflow-bin/target/release/workflow-bin
