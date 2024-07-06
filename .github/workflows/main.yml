@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: curl -LO https://github.com/czy-29/29bot.com/releases/download/workflow-bin-v5/workflow-bin
-    - run: ls
+    - run: ./workflow-bin help
