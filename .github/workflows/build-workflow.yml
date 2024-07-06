@@ -1,4 +1,7 @@
-on: workflow_dispatch
+on:
+  push:
+    tags:
+      - workflow-bin-v**
 
 jobs:
   build-workflow-bin:
