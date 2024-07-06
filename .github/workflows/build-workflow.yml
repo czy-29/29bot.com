@@ -12,4 +12,4 @@ jobs:
       working-directory: .github/workflow-bin
     - uses: softprops/action-gh-release@v2
       with:
-        files: .github/workflow-bin/release/workflow-bin
+        files: .github/workflow-bin/target/release/workflow-bin
