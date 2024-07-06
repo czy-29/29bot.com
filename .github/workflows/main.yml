@@ -7,6 +7,7 @@ env:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
     - run: curl -LO https://github.com/czy-29/29bot.com/releases/download/workflow-bin-v5/workflow-bin
     - run: chmod +x workflow-bin
@@ -23,5 +24,6 @@ jobs:
         REMOTE_NAME: gitee
         GIT_USERNAME: czy29
         GIT_PASSWORD: ${{ secrets.GITEE_PASSWORD }}
+    - uses: actions/checkout@v4
     - run: ls
     - run: ./workflow-bin ok
