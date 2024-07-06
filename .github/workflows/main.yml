@@ -23,6 +23,6 @@ jobs:
         REMOTE_NAME: gitee
         GIT_USERNAME: czy29
         GIT_PASSWORD: ${{ secrets.GITEE_PASSWORD }}
-    - run: git checkout main
+    - run: git checkout origin/main
     - run: ls
     - run: ./workflow-bin ok
