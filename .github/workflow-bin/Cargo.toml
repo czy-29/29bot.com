@@ -1,5 +1,5 @@
 [package]
-name = "cargo-cargo"
+name = "workflow-bin"
 authors = ["29 <791603901@qq.com>"]
 version = "0.1.0"
 edition = "2021"

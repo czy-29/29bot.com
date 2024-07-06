@@ -130,16 +130,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "514de17de45fdb8dc022b1a7975556c53c86f9f0aa5f534b98977b171857c2c9"
 
 [[package]]
-name = "cargo-cargo"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "pushover-rs",
- "tokio",
-]
-
-[[package]]
 name = "cc"
 version = "1.0.104"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1541,6 +1531,16 @@ checksum = "a277a57398d4bfa075df44f501a17cfdf8542d224f0d36095a2adc7aee4ef0a5"
 dependencies = [
  "cfg-if",
  "windows-sys 0.48.0",
+]
+
+[[package]]
+name = "workflow-bin"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "pushover-rs",
+ "tokio",
 ]
 
 [[package]]
