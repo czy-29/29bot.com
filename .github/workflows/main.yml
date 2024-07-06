@@ -5,24 +5,12 @@ env:
   PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
 
 jobs:
-  deploy:
+  main:
     runs-on: ubuntu-latest
     steps:
     - run: curl -LO https://github.com/czy-29/29bot.com/releases/download/workflow-bin-v5/workflow-bin
     - run: chmod +x workflow-bin
     - run: ./workflow-bin start
-    - uses: yesolutions/mirror-action@master
-      with:
-        REMOTE: 'https://gitlab.com/czy29/29bot.com.git'
-        REMOTE_NAME: gitlab
-        GIT_USERNAME: czy29
-        GIT_PASSWORD: ${{ secrets.GITLAB_PASSWORD }}
-    - uses: yesolutions/mirror-action@master
-      with:
-        REMOTE: 'https://gitee.com/czy29/29bot.com.git'
-        REMOTE_NAME: gitee
-        GIT_USERNAME: czy29
-        GIT_PASSWORD: ${{ secrets.GITEE_PASSWORD }}
-    - run: git checkout origin/main
+    - uses: actions/checkout@v4
     - run: ls
     - run: ./workflow-bin ok
