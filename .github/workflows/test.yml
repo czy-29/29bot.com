@@ -4,4 +4,4 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-    - run: cargo --version
+    - run: hugo version
