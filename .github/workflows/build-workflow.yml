@@ -7,3 +7,5 @@ jobs:
     - uses: actions/checkout@v4
     - run: cargo build --release
       working-directory: .github/workflow-bin
+    - run: ls
+      working-directory: .github/workflow-bin/target
