@@ -1,12 +1,12 @@
 use clap::Parser;
 use pushover_rs::{send_pushover_request, PushoverSound};
-use std::env;
+use std::{env, time::Duration};
+use tokio::time::sleep;
 
 #[derive(Parser, Debug)]
 enum Commands {
     Start,
-    Ok,
-    Err,
+    Run,
 }
 
 struct Pushover {
@@ -41,8 +41,15 @@ async fn main() -> Result<(), anyhow::Error> {
 
     match Commands::parse() {
         Commands::Start => pushover.send("Workflow开始执行！", PushoverSound::BIKE),
-        Commands::Ok => pushover.send("Workflow执行成功！", PushoverSound::MAGIC),
-        Commands::Err => pushover.send("Workflow执行失败！", PushoverSound::FALLING),
+        Commands::Run => {
+            sleep(Duration::from_secs(3)).await;
+
+            if true {
+                pushover.send("Workflow执行成功！", PushoverSound::MAGIC)
+            } else {
+                pushover.send("Workflow执行失败！", PushoverSound::FALLING)
+            }
+        }
     }
     .await
 }
