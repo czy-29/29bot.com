@@ -8,11 +8,11 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-    - run: curl -LO https://github.com/czy-29/29bot.com/releases/download/workflow-bin-v5/workflow-bin
+    - run: curl -LO https://github.com/czy-29/29bot.com/releases/download/workflow-bin-v6/workflow-bin
     - run: chmod +x workflow-bin
     - run: ./workflow-bin start
     - uses: actions/checkout@v4
-    - run: curl -LO https://github.com/czy-29/29bot.com/releases/download/workflow-bin-v5/workflow-bin
+    - run: curl -LO https://github.com/czy-29/29bot.com/releases/download/workflow-bin-v6/workflow-bin
     - run: chmod +x workflow-bin
     - run: ls
-    - run: ./workflow-bin ok
+    - run: ./workflow-bin run
