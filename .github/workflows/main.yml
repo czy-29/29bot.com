@@ -16,4 +16,9 @@ jobs:
         REMOTE: 'https://gitlab.com/czy29/29bot.com.git'
         GIT_USERNAME: czy29
         GIT_PASSWORD: ${{ secrets.GITLAB_PASSWORD }}
+    - uses: yesolutions/mirror-action@master
+      with:
+        REMOTE: 'https://gitee.com/czy29/29bot.com.git'
+        GIT_USERNAME: czy29
+        GIT_PASSWORD: ${{ secrets.GITEE_PASSWORD }}
     - run: ./workflow-bin ok
