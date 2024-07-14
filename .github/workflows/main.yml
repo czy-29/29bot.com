@@ -1,4 +1,7 @@
-on: push
+on:
+  push:
+  schedule:
+    - cron: '0 0 * * *'
 
 env:
   PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
