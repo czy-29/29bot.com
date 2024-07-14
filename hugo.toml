@@ -1,3 +1,12 @@
 baseURL = 'https://29bot.com/'
 languageCode = 'zh-cn'
 title = '29的主页'
+theme = 'github-style'
+
+[params]
+# 这俩备选，等在移动端上测试一下再决定
+# favicon = "/images/avatar.jpg"
+# headerIcon = "/images/avatar.jpg"
+
+avatar = "/images/avatar.jpg"
+headerIcon = "images/github-mark-white.png"
