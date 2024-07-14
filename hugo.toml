@@ -9,4 +9,4 @@ theme = 'github-style'
 # headerIcon = "/images/avatar.jpg"
 
 avatar = "/images/avatar.jpg"
-headerIcon = "images/github-mark-white.png"
+headerIcon = "/images/github-mark-white.png"
