@@ -1,7 +1,7 @@
 on:
   push:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '30 8 * * *'
 
 env:
   PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
