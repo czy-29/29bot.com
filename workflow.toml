@@ -1,4 +1,4 @@
-hugo.version = "0.128.2"
+hugo.version = "0.129.0"
 
 [deploy.github]
 username = "czy-29"
