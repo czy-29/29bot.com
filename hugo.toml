@@ -2,6 +2,8 @@ baseURL = 'https://29bot.com/'
 languageCode = 'zh-cn'
 title = '29的主页'
 theme = 'github-style'
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 [params]
 favicon = "/images/avatar.jpg"
