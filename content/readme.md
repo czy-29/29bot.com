@@ -15,9 +15,10 @@ date = 2024-07-15T00:24:10+08:00
 —— 陶渊明《桃花源记》
 
 【网站信息】：
+- 网站源码：[29bot.com](https://github.com/czy-29/29bot.com)
+- 更新时间：
 - 构建依赖：
   - [github-style](https://github.com/MeiK2333/github-style)
   - [hugo v0.129.0](https://github.com/gohugoio/hugo/releases/tag/v0.129.0)
   - [workflow-bin v0.3.0](https://github.com/czy-29/workflow-bin)
   - [rust v1.79.0](https://blog.rust-lang.org/2024/06/13/Rust-1.79.0.html)
-- 更新时间：
