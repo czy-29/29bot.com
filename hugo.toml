@@ -5,8 +5,8 @@ theme = 'github-style'
 
 [params]
 # 这俩备选，等在移动端上测试一下再决定
-# favicon = "/images/avatar.jpg"
 # headerIcon = "/images/avatar.jpg"
 
+favicon = "/images/avatar.jpg"
 avatar = "/images/avatar.jpg"
 headerIcon = "/images/github-mark-white.png"
