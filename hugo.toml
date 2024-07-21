@@ -4,9 +4,6 @@ title = '29的主页'
 theme = 'github-style'
 
 [params]
-# 这俩备选，等在移动端上测试一下再决定
-headerIcon = "/images/avatar.jpg"
-
 favicon = "/images/avatar.jpg"
 avatar = "/images/avatar.jpg"
-# headerIcon = "/images/github-mark-white.png"
+headerIcon = "/images/github-mark-white.png"
