@@ -1,0 +1,7 @@
+on: workflow_dispatch
+
+jobs:
+  rustup_show:
+    runs-on: ubuntu-latest
+    steps:
+    - run: rustup show
