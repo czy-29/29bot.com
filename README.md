@@ -1,2 +1,2 @@
 # 29bot.com
-29's personal website
+29's personal homepage
