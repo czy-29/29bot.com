@@ -7,5 +7,5 @@ repo = "deploy-svc-29bot.com"
 
 [deploy.oss.sync]
 root = "/"
-files = ["404.html", "index.html", "index.xml", "sitemap.xml"]
+files = ["404.html", "index.html", "sitemap.xml"]
 dirs = ["categories", "css", "images", "js", "post", "readme", "tags"]
