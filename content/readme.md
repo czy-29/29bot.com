@@ -19,7 +19,7 @@ date = 2024-07-15T00:24:10+08:00
 想继续玩贪吃蛇的朋友们请移步：[legacy.29bot.com](https://legacy.29bot.com)
 
 【网站信息】：
-- 网站源码：[29bot.com](https://github.com/czy-29/29bot.com)
+- 网站源码：[链接](https://github.com/czy-29/29bot.com)
 - 构建依赖：
   - [github-style](https://github.com/MeiK2333/github-style)
   - [hugo v0.129.0](https://github.com/gohugoio/hugo/releases/tag/v0.129.0)
