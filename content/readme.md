@@ -28,4 +28,4 @@ date = 2024-07-15T00:24:10+08:00
 - 部署依赖：
   - [caddy v2.7.6](https://github.com/caddyserver/caddy/releases/tag/v2.7.6)
   - [阿里云OSS](https://www.aliyun.com/product/oss)
-- 更新时间：
+- 更新时间：{{< cur >}}
