@@ -12,7 +12,6 @@ pygmentsUseClasses = true
 date = [':filename', ':default']
 
 [params]
-lastmod = true
 favicon = "/images/avatar.jpg"
 avatar = "/images/avatar.jpg"
 headerIcon = "/images/github-mark-white.png"
