@@ -1,5 +1,6 @@
 +++
 title = '模板页'
-date = 2024-07-15T01:06:13+08:00
+tags = ['模板']
 draft = true
+pin = true
 +++
