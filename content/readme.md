@@ -22,7 +22,7 @@ date = 2024-07-15T00:24:10+08:00
 - 网站源码：[链接](https://github.com/czy-29/29bot.com)
 - 构建依赖：
   - [github-style](https://github.com/MeiK2333/github-style) - master
-  - [hugo](https://gohugo.io/) - v0.129.0
+  - [hugo](https://gohugo.io/) - v{{< hugo_version >}}
   - [workflow-bin](https://github.com/czy-29/workflow-bin) - v0.3.0
   - [rust](https://www.rust-lang.org/) - v1.79.0
 - 部署依赖：
