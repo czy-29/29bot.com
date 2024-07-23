@@ -3,11 +3,16 @@ languageCode = 'zh-cn'
 title = '29的个人主页'
 theme = 'github-style'
 hasCJKLanguage = true
+enableGitInfo = true
 disableKinds = ['RSS']
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
+[frontmatter]
+date = [':filename', ':default']
+
 [params]
+lastmod = true
 favicon = "/images/avatar.jpg"
 avatar = "/images/avatar.jpg"
 headerIcon = "/images/github-mark-white.png"
