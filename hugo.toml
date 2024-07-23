@@ -2,7 +2,6 @@ baseURL = 'https://29bot.com/'
 languageCode = 'zh-cn'
 title = '29的个人主页'
 theme = 'github-style'
-timeZone = 'Asia/Shanghai'
 hasCJKLanguage = true
 disableKinds = ['RSS']
 pygmentsCodeFences = true
