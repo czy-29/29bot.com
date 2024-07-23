@@ -10,6 +10,7 @@ pygmentsUseClasses = true
 
 [frontmatter]
 date = [':filename', ':default']
+lastmod = [":git", ":fileModTime", ":default"]
 
 [params]
 lastmod = true
