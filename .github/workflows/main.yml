@@ -5,6 +5,7 @@ on:
     - cron: '30 8 * * *'
 
 env:
+  TZ: Asia/Shanghai
   PUSHOVER_USER_KEY: ${{ secrets.PUSHOVER_USER_KEY }}
   PUSHOVER_APP_TOKEN: ${{ secrets.PUSHOVER_APP_TOKEN }}
   HUGO_DRAFT_BASE_URL: ${{ secrets.HUGO_DRAFT_BASE_URL }}
