@@ -4,6 +4,7 @@ jobs:
   mirror:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v4
     - uses: yesolutions/mirror-action@master
       with:
         REMOTE: 'https://gitlab.com/czy29/29bot.com.git'
