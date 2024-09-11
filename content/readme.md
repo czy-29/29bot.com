@@ -23,8 +23,8 @@ date = 2024-07-15T00:24:10+08:00
 - 构建依赖：
   - [github-style](https://github.com/MeiK2333/github-style) - master
   - [hugo](https://gohugo.io/) - v{{< hugo_version >}}
-  - [workflow-bin](https://github.com/czy-29/workflow-bin) - v0.3.0
-  - [rust](https://www.rust-lang.org/) - v1.79.0
+  - [gitops-cli](https://github.com/opensound-org/gitops-cli) - v1.1.0
+  - [rust](https://www.rust-lang.org/) - v1.81.0
 - 部署依赖：
   - [caddy](https://caddyserver.com/) - v2.7.6
   - [阿里云OSS](https://www.aliyun.com/product/oss)
