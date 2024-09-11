@@ -8,5 +8,5 @@ repo = "deploy-svc-29bot.com"
 
 [hugo.deploy.oss.sync]
 root = "/"
-files = ["404.html", "index.html", "sitemap.xml"]
+files = ["404.html", "index.html", "index.json", "sitemap.xml"]
 dirs = ["categories", "css", "images", "js", "post", "readme", "tags"]

@@ -26,3 +26,11 @@ email = "791603901@qq.com"
 url = "https://29bot.com"
 
 enableSearch = true
+
+[outputs]
+  home = ["html", "json"]
+
+[outputFormats.json]
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = false
