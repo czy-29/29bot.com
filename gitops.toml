@@ -1,0 +1,12 @@
+[hugo]
+version = "0.134.2"
+
+[hugo.deploy.github]
+username = "czy-29"
+org = "czy-29"
+repo = "deploy-svc-29bot.com"
+
+[hugo.deploy.oss.sync]
+root = "/"
+files = ["404.html", "index.html", "sitemap.xml"]
+dirs = ["categories", "css", "images", "js", "post", "readme", "tags"]
