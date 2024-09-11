@@ -23,10 +23,7 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-    - run: curl -LO https://github.com/czy-29/workflow-bin/releases/latest/download/workflow-bin
-    - run: chmod +x workflow-bin
-    - run: ./workflow-bin start
     - uses: actions/checkout@v4
-    - run: curl -LO https://github.com/czy-29/workflow-bin/releases/latest/download/workflow-bin
-    - run: chmod +x workflow-bin
-    - run: ./workflow-bin run
+    - run: curl -LO https://github.com/opensound-org/gitops-cli/releases/latest/download/gitops-cli
+    - run: chmod +x gitops-cli
+    - run: ./gitops-cli deploy hugo
