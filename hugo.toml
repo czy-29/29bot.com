@@ -24,3 +24,5 @@ description = "29的日记本：记录完整而真实的29"
 location = "中国"
 email = "791603901@qq.com"
 url = "https://29bot.com"
+
+enableSearch = true
