@@ -23,7 +23,7 @@ date = 2024-07-15T00:24:10+08:00
 - 构建依赖：
   - [github-style](https://github.com/MeiK2333/github-style) - master
   - [hugo](https://gohugo.io/) - v{{< hugo_version >}}
-  - [gitops-cli](https://github.com/opensound-org/gitops-cli) - v1.1.2
+  - [gitops-cli](https://github.com/opensound-org/gitops-cli) - v1.2.0
   - [rust](https://www.rust-lang.org/) - v1.81.0
 - 部署依赖：
   - [caddy](https://caddyserver.com/) - v2.7.6
