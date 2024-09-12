@@ -26,6 +26,6 @@ date = 2024-07-15T00:24:10+08:00
   - [gitops-cli](https://github.com/opensound-org/gitops-cli) - v1.2.0
   - [rust](https://www.rust-lang.org/) - v1.81.0
 - 部署依赖：
-  - [caddy](https://caddyserver.com/) - v2.7.6
+  - [caddy](https://caddyserver.com/) - v2.8.4
   - [阿里云OSS](https://www.aliyun.com/product/oss)
 - 更新时间：{{< cur >}}
